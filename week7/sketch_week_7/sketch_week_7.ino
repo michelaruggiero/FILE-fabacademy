@@ -32,10 +32,10 @@ void loop() {
   // if it is, the buttonState is HIGH:
   if (buttonState == HIGH) {
     // turn LED on:
-    digitalWrite(ledPin, LOW);
+    digitalWrite(ledPin, HIGH);
   }
   else {
     // turn LED off:
-    digitalWrite(ledPin, HIGH);
+    digitalWrite(ledPin, LOW);
   }
 }

@@ -1,4 +1,3 @@
-int analogInPin = A0;
 int sensorValue = A0;
  
 void setup() {
